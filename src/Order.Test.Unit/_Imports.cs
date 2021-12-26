@@ -1,0 +1,11 @@
+﻿global using FluentValidation;
+global using Moq;
+global using Order.Domain.Contract.IRepositories;
+global using Order.Domain.Contract.Models.Order;
+global using Order.Domain.Contract.Models.OrderItem;
+global using Order.Service;
+global using Order.Service.Contract.Validations;
+global using System;
+global using System.Collections.Generic;
+global using System.Threading.Tasks;
+global using Xunit;

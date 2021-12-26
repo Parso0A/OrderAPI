@@ -1,0 +1,13 @@
+﻿global using System;
+global using System.Collections.Generic;
+global using System.Linq;
+global using System.Text;
+global using System.Threading.Tasks;
+global using FluentValidation;
+global using Order.Service.Contract.Validations;
+global using Order.Domain.Contract.IRepositories;
+global using Order.Domain.Contract.Models.Order;
+global using Order.Service.Contract.Mappers;
+global using OrderEntity = Order.Domain.Entities.Order;
+global using Order.Service.Contract.IServices;
+global using Order.Domain.Entities.BaseInfo;
