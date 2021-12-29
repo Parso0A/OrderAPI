@@ -14,10 +14,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Order.Domain.Contract\Order.Domain.Contract.csproj" />
+    <ProjectReference Include="..\..\Domain\Order.Domain.Contract\Order.Domain.Contract.csproj" />
+    <ProjectReference Include="..\..\Domain\Order.Domain\Order.Domain.csproj" />
+    <ProjectReference Include="..\..\Service\Order.Service.Contract\Order.Service.Contract.csproj" />
+    <ProjectReference Include="..\..\Service\Order.Service\Order.Service.csproj" />
     <ProjectReference Include="..\Order.Persistence\Order.Persistence.csproj" />
-    <ProjectReference Include="..\Order.Service.Contract\Order.Service.Contract.csproj" />
-    <ProjectReference Include="..\Order.Service\Order.Service.csproj" />
   </ItemGroup>
 
 </Project>
