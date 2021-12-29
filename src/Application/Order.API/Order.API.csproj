@@ -21,8 +21,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Order.IOC\Order.IOC.csproj" />
-    <ProjectReference Include="..\Order.Service.Contract\Order.Service.Contract.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Order.IOC\Order.IOC.csproj" />
+    <ProjectReference Include="..\..\Service\Order.Service.Contract\Order.Service.Contract.csproj" />
   </ItemGroup>
 
 </Project>

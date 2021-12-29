@@ -23,7 +23,7 @@ namespace Order.Domain.Entities
                 return 0;
             }
 
-            return Quantity <= ProductType.StackSize ? ProductType.Width : Math.Ceiling((decimal)Quantity / ProductType.StackSize) * ProductType.Width;
+            return Quantity <= ProductType.StackSize ? ProductType.Width : (Math.Floor((decimal)Quantity / ProductType.StackSize) + Quantity % ProductType.StackSize) * ProductType.Width;
         }
     }
 }
